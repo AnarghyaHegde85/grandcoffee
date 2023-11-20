@@ -1,0 +1,29 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(21, 26, 30);
+    color: white;
+
+    &-list{
+        display: flex;
+        justify-content: space-around;
+        gap:2rem;
+        list-style: none;
+        align-self: center;
+       &-link {
+          font-size: 1.3rem;
+          color: white;
+          list-style: none;
+          text-decoration: none;
+       }
+    }
+
+    &-search{
+        width: 13%;
+        height: 2rem;
+        align-self: center;
+    }
+}

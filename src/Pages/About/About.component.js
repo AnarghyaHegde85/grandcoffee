@@ -7,7 +7,7 @@ export class AboutComponent extends PureComponent {
       <div className="wrapper">
       <div className="wrapper-Aboutmain">
         <div className="wrapper-Aboutmain-pic">
-          <img src="./Assets/about.jpg" alt="about" />
+          <img className="wrapper-Aboutmain-pic" src="./Assets/about.jpg" alt="about" />
         </div>
         <div className="wrapper-Aboutmain-para">
           <h4> About Us</h4>
